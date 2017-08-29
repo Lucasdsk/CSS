@@ -1,0 +1,57 @@
+Conteúdos workshop CSS:
+
+#### BASE ####
+
+> Seletores
+  > elementos
+  > classes
+  > ID
+  > atributos
+  > +, ~, >
+
+> Pseudo seletores
+  > :empty
+  > :link
+  > :visited
+  > :active
+  > :hover
+  > :focus
+  > :target -- ver se tem necessidade
+  > :enabled
+  > :disabled
+  > :checked
+  > :not()
+  > :root -- ver se tem necessidade
+  > :nth-child(n)
+  > :nth-last-child(n)
+  > :nth-of-type(n)
+  > :nth-last-of-type(n)
+  > :first-child
+  > :last-child
+  > :first-of-type
+  > :last-of-type
+  > :only-child
+  > :only-of-type
+
+> Pseudo elementos
+  > :first-line
+  > :first-letter
+  > ::before
+  > ::after
+
+> Prioridade de seletores
+  > A. Estilo definido com a tag "style" recebe a pontuação 1
+  > B. Soma dos seletores ID
+  > C. Soma das classes, atributos e pseudo-classes
+  > D. Soma dos pseudo-elementos
+
+#### POSICIONAMENTO ####
+
+> box-sizing
+> float
+> positions
+  > relative
+  > static
+  > absolute
+  > fixed
+> flex
