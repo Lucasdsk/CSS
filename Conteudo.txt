@@ -2,11 +2,15 @@ Conteúdos workshop CSS:
 
 #### BASE ####
 
+> Tipos de elementos ( Inline, Bloco )
+> Propriedades default
+
 > Seletores
   > elementos
   > classes
   > ID
   > atributos
+  > descendentes
   > +, ~, >
 
 > Pseudo seletores
@@ -55,3 +59,13 @@ Conteúdos workshop CSS:
   > absolute
   > fixed
 > flex
+
+#### Chrome Dev Tools ####
+> APIs para box-shadow, text-shadow, animation, color
+> Computed
+
+Fontes:
+
+https://css-tricks.com/almanac/selectors/a/attribute/
+
+

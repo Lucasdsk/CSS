@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@storybook/react": "^3.2.8",
+    "raw-loader": "^0.5.1",
     "storybook-readme": "^3.0.6"
   }
 }
