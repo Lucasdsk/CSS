@@ -3,7 +3,9 @@ import styled from 'styled-components'
 
 const StyledSeletoresClasses = styled.div`
 	.elemento-ul {
-		padding-left: 0;
+		padding: 0;
+		margin: 0;
+		list-style: none;
 
 		.elemento-li {
 			color: #2870b2;

@@ -14,7 +14,6 @@ Conteúdos workshop CSS:
   > +, ~, >
 
 > Pseudo seletores
-  > :empty
   > :link
   > :visited
   > :active

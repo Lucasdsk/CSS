@@ -36,13 +36,19 @@ injectGlobal`
     &::after,
     &::before {
       display: inline-block;
-      margin-left: 5px;
       color: #496072;
       font-size: 12px;
       font-weight: bold;
       padding: 2px;
       background-color: #afcef3;
       border-radius: 5px;
+    }
+  }
+
+  [data-tag-after],
+  [data-selector-after] {
+    &::after {
+      margin-left: 5px;      
     }
   }
   
