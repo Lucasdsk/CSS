@@ -3,7 +3,7 @@ Conteúdos workshop CSS:
 #### BASE ####
 
 > Tipos de elementos ( Inline, Bloco )
-> Propriedades default
+> Propriedades default ()
 
 > Seletores
   > elementos
