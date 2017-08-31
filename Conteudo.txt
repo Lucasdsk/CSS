@@ -19,12 +19,10 @@ Conteúdos workshop CSS:
   > :active
   > :hover
   > :focus
-  > :target -- ver se tem necessidade
   > :enabled
   > :disabled
   > :checked
   > :not()
-  > :root -- ver se tem necessidade
   > :nth-child(n)
   > :nth-last-child(n)
   > :nth-of-type(n)
@@ -33,8 +31,6 @@ Conteúdos workshop CSS:
   > :last-child
   > :first-of-type
   > :last-of-type
-  > :only-child
-  > :only-of-type
 
 > Pseudo elementos
   > :first-line

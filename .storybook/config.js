@@ -17,6 +17,11 @@ injectGlobal`
     align-items: center;
   }
 
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+
   * {
     font-family: Arial;
   }
@@ -48,17 +53,17 @@ injectGlobal`
   [data-tag-after],
   [data-selector-after] {
     &::after {
-      margin-left: 5px;      
+      margin-left: 5px;
     }
   }
-  
+
   [data-tag-before] {
     &::before {
       content: "<" attr(data-tag-before) "/>";
     }
   }
 
-  [data-tag-after] {  
+  [data-tag-after] {
     &::after {
       content: "<" attr(data-tag-after) "/>";
     }
@@ -79,14 +84,9 @@ injectGlobal`
 
 addDecorator(story => (
   <div style={{
-    width: '100%',
-    height: '100%',
-    maxWidth: '500px',
-    maxHeight: '500px',
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center',
-    margin: 'auto',
+    padding: '10px',
   }}>
     {story()}
   </div>
