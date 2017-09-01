@@ -9,5 +9,5 @@
 ## Como visualizar os exemplos
 
 * executar o comando `yarn` ou `npm install`
-* executar o comadno `yarn storybook`  ou `npm run storybook`
+* executar o comando `yarn storybook`  ou `npm run storybook`
 
