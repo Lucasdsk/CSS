@@ -38,7 +38,7 @@ const styledPseudoSeletores = styled.div`
 	}
 
 	.exemplo-hover {
-		span:hover {
+		.span:hover {
 			font-size: 16px;
 			font-weight: bold;
 			color: #8cc152;

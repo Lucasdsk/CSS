@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 
 import PosicionamentoFlexReadme from './PosicionamentoFlex.md'
+import PosicionamentoFlexItemsReadme from './PosicionamentoFlexItems.md'
 import StyledPosicionamentoFlex from './styledPosicionamentoFlex'
 
 const PosicionamentoStories = storiesOf('Posicionamento', module)
@@ -70,7 +71,7 @@ PosicionamentoStories.add('Flex - Container', withReadme(PosicionamentoFlexReadm
 	</StyledPosicionamentoFlex>
 )))
 
-PosicionamentoStories.add('Flex - Items', withReadme(PosicionamentoFlexReadme, () => (
+PosicionamentoStories.add('Flex - Items', withReadme(PosicionamentoFlexItemsReadme, () => (
   <StyledPosicionamentoFlex>
     <div className="exemplo-flex" data-selector-before="flex">
       <ul className="pai">
@@ -91,6 +92,14 @@ PosicionamentoStories.add('Flex - Items', withReadme(PosicionamentoFlexReadme, (
         <li className="filho" data-selector-after="4" />
         <li className="filho" data-selector-after="5" />
         <li className="filho" data-selector-after="6" />
+      </ul>
+    </div>
+
+    <div className="exemplo-flex flex-align-self" data-selector-before="align-self">
+      <ul className="pai">
+        <li className="filho" data-selector-after="1" />
+        <li className="filho" data-selector-after="2" />
+        <li className="filho" data-selector-after="3" />
       </ul>
     </div>
   </StyledPosicionamentoFlex>

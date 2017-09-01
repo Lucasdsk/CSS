@@ -27,7 +27,7 @@ SeletoresStories.add('Exemplos', withReadme(PseudoSeletoresReadme, () => (
 
 		<div className="exemplo-hover" data-selector-before=":hover">
 			<div>
-				<span>passa o mouse em mim</span>
+				<span className="span">passa o mouse em mim</span>
 			</div>
 		</div>
 

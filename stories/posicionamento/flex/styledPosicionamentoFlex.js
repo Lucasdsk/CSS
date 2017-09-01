@@ -75,6 +75,17 @@ const StyledSeletoresClasses = styled.div`
         }
       }
     }
+
+    &.flex-align-self {
+      ul {
+        li {
+          width: 50px;
+          &:nth-child(2) {
+            align-self: flex-end;
+          }
+        }
+      }
+    }
   }
 `
 export default StyledSeletoresClasses
